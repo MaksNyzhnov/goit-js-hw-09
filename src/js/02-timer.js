@@ -87,8 +87,8 @@ function convertMs(ms) {
 
 function getFormedTime() {
     capturedTime -= 1000;
-    const { days, hours, minutes, seconds } = convertMs(capturedTime)
-    return {days, hours, minutes, seconds}
+    // const { days, hours, minutes, seconds } = convertMs(capturedTime)
+    return convertMs(capturedTime)
 }
 
 function updateTimerComponents({ days, hours, minutes, seconds }) {
