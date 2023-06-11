@@ -52,7 +52,7 @@ function onTimeStart() {
     }
     isActive = true
     intervalID = setInterval(() => {
-        // console.log(getFormedTime())
+    
         updateTimerComponents(getFormedTime())
 
         if (capturedTime < 1000) {
