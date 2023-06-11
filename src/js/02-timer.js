@@ -52,8 +52,8 @@ function onTimeStart() {
     }
     isActive = true
     intervalID = setInterval(() => {
-        
-        updateTimerComponents({ days, hours, minutes, seconds } = getFormedTime())
+        // console.log(getFormedTime())
+        updateTimerComponents(getFormedTime())
 
         if (capturedTime < 1000) {
             clearInterval(intervalID)
