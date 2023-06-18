@@ -28,3 +28,4 @@ function stopColorSwitcher() {
     startBtn.disabled = false
     stopBtn.disabled = true
 }
+
